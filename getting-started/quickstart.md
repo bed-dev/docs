@@ -1,12 +1,36 @@
 # Quickstart
 
-Getting started with Sheets is simple. Follow these steps to install the plugin and create your first menu.
+### Introduction
+
+The Sheets plugin for Minecraft Java Edition provides an extensive toolkit for creating dynamic menus and interactive forms, enhancing player engagement and overall gameplay experience. This section will guide you through the installation and basic setup of the Sheets plugin, helping you create your first menu and utilize its features effectively.
+
+Want to learn about writing menu from scratch? Head to the [Basics](../README.md) section to learn more.
 
 ### Installation
 
-1.  Download the latest version of Sheets.
-2.  Place the `Sheets.jar` file into your server's `plugins/` folder.
-3.  Restart your server or use a plugin manager to load Sheets.
+#### Prerequisites
+
+Before installing the Sheets plugin, ensure you have the following:
+
+*   **Java version 21** installed.
+*   A **Minecraft Java Edition server** running a compatible version of Spigot 1.21+.
+*   **Geyser** installed (optional) if you plan to support cross-play with Bedrock Edition players.
+*   **PlaceholderAPI** installed (optional) if you want to use placeholders.
+*   **Vault** and an **economy plugin** installed (optional) if you want to use economy.
+
+#### Installation Steps
+
+1.  **Download the Plugin**: Go to the BuiltByBit resource page and download the latest version of the Sheets plugin.
+2.  **Add the Plugin to Your Server**: Move the downloaded `.jar` file into the `plugins/` folder of your Minecraft server directory.
+3.  **Restart Your Server**: Restart your server to enable the plugin. Check the server console for messages confirming that Sheets has been loaded successfully.
+
+If you encounter any problem installing the plugin you can request support at our [discord](https://discord.gg/).
+
+### Basic Configuration
+
+Sheets doesn't require any configuration to work directly after installing. The only option in the configuration right now is debug.
+
+You can add or configure menus in the `plugins/Sheets/menus/` folder. You don't need to add the menu to a configuration; every file in the `menus` folder is loaded, no matter if it's in another folder inside like `plugins/Sheets/menus/anotherfolder/`.
 
 ### Creating Your First Menu
 
