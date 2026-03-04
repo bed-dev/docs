@@ -50,4 +50,6 @@ buttons:
 
 *   Learn about more [Commands](../basics/commands.md) to manage your menus.
 *   Explore [Actions](../features/actions.md) to add functionality to your buttons.
+*   Check out the [Configuration](../basics/configuration.md) to customize the plugin.
+*   Learn how to use [Requirements](../features/requirements.md) for button visibility.
 *   Use [Placeholders](../features/placeholders.md) to create dynamic content.

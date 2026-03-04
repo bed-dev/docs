@@ -27,6 +27,8 @@ requirements:
 
 ### Supported Conditions
 
+Conditions can use [placeholders](placeholders.md) and logical expressions to determine if a requirement is met.
+
 | Condition | Description |
 | :--- | :--- |
 | `condition` | A logical expression (e.g., `%balance% > 100`). |

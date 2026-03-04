@@ -39,8 +39,8 @@ Buttons are defined in the `buttons` list.
 *   `image`: The image URL or path for Bedrock form buttons.
 *   `name`: The display name of the item.
 *   `lore`: List of lore lines for the item.
-*   `requirements`: Conditions for visibility and interaction.
-*   `actions`: Actions to perform when clicked.
+*   `requirements`: Conditions for visibility and interaction. See [Requirements](../features/requirements.md).
+*   `actions`: Actions to perform when clicked. See [Actions](../features/actions.md).
 
 ### Variables
 
@@ -51,4 +51,4 @@ prefix: "&c&sServername"
 server-ip: "123.45.67.89"
 ```
 
-Use them in your menus with `{{variable_name}}`.
+Use them in your menus with `{{variable_name}}`. See [Placeholders](../features/placeholders.md).

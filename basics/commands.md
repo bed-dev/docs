@@ -12,11 +12,13 @@ Manage your sheets and the plugin using the following commands.
 
 ### Management Commands
 
-*   `/sheets create <name> [template]`: Creates a new sheet. If a template is specified, it will be used as the base.
+*   `/sheets create [name] [template]`:
+    *   `/sheets create`: Opens the graphical template selector.
+    *   `/sheets create <name> [template]`: Creates a new sheet. If a [template](../features/templates.md) is specified, it will be used as the base.
 *   `/sheets edit [name] [chest]`:
-    *   `/sheets edit`: Opens the graphical edit menu to manage all sheets.
+    *   `/sheets edit`: Opens the [graphical edit menu](../features/editor.md) to manage all sheets.
     *   `/sheets edit <name>`: Opens the edit menu for the specified sheet.
-    *   `/sheets edit <name> chest`: Opens the visual chest editor for the specified sheet.
+    *   `/sheets edit <name> chest`: Opens the visual [chest editor](../features/editor.md#1-chest-edit-mode-java-only) for the specified sheet.
 *   `/sheets delete <name> [confirm]`: Deletes the specified sheet. Add `true` to skip the confirmation menu.
 *   `/sheets rename <old> <new>`: Renames an existing sheet.
 *   `/sheets copy <menu> <newname>`: Creates a copy of a menu with a new name.

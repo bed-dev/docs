@@ -11,12 +11,12 @@ All templates are stored in `plugins/Sheets/menus/templates/`.
 Sheets comes with several default templates:
 *   `basic_gui`: A standard inventory GUI.
 *   `simple_inventory`: A basic inventory-based menu.
-*   `anvil_input`: A template for Anvil input menus.
+*   `anvil_input`: A template for [Anvil input menus](editor.md#2-anvil-input).
 
 ### Usage
 
 #### Commands
-Run `/sheets create <name> <template>` to create a new sheet from a template.
+Run [`/sheets create <name> <template>`](../basics/commands.md#management-commands) to create a new sheet from a template.
 
 ```bash
 /sheets create my_new_menu basic_gui

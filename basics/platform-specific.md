@@ -40,10 +40,12 @@ buttons:
         - "%sheets_is_bedrock% = true"
 ```
 
+See [Requirements](../features/requirements.md) for more information on conditions.
+
 ### Java-Specific Features
 
 #### Chest Edit Mode
-The visual chest editor is only available to Java players.
+The visual [chest editor](../features/editor.md#1-chest-edit-mode-java-only) is only available to Java players.
 
 #### Inventory Types
 Java supports various inventory types (e.g., HOPPER, DISPENSER, BREWING_STAND), which are rendered as standard forms on Bedrock.

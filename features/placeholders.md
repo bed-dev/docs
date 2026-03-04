@@ -9,7 +9,7 @@ Sheets evaluates placeholders in the following order:
 1.  **Global Variables**: `{{variable_name}}`
     *   Defined in `variables/*.yml`.
 2.  **Arguments/Local Variables**: `{variable_name}`
-    *   Passed via commands or actions like `input`.
+    *   Passed via [commands](../basics/commands.md) or [actions](actions.md) like [input](editor.md#2-anvil-input).
 3.  **Special Placeholders**:
     *   `[index]`: Current index in a dynamic slot range.
     *   `[slot]`: Current slot number in a dynamic slot range.

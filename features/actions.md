@@ -40,8 +40,8 @@ actions:
 | `balance` | Modifies the player's Vault balance. | |
 | `permission` | Modifies the player's permissions. | |
 | `refresh` | Refreshes the current menu content. | |
-| `argument` | Sets a local variable for subsequent actions. | |
-| `input` | Prompts for text input via an Anvil menu. | |
+| `argument` | Sets a [local variable](placeholders.md#1-multi-tier-system) for subsequent actions. | |
+| `input` | Prompts for text input via an [Anvil menu](editor.md#2-anvil-input). | |
 
 ### Specialized Click Actions (Java Only)
 

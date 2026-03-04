@@ -7,7 +7,7 @@ Sheets provides interactive ways to edit and interact with menus.
 Chest Edit Mode allows you to visually edit your menus in-game.
 
 #### How to Open
-*   Run `/sheets edit <menu> chest`.
+*   Run [`/sheets edit <menu> chest`](../basics/commands.md#management-commands).
 *   Alternatively, open the edit menu with `/sheets edit` and right-click on the sheet you want to edit.
 
 #### Functionality
@@ -20,7 +20,7 @@ Chest Edit Mode allows you to visually edit your menus in-game.
 Anvil menus can be used to capture text input from players.
 
 #### Usage via Actions
-Define an `input` action in your YAML:
+Define an [`input` action](actions.md#input-action) in your YAML:
 ```yaml
 actions:
   - input:

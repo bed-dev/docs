@@ -17,8 +17,8 @@ Simply place your DeluxeMenus files into the `plugins/Sheets/menus/` folder and 
 
 *   Menu settings (title, size, inventory type).
 *   Buttons and items.
-*   Requirements (view and click).
-*   Actions (player and console commands).
+*   [Requirements](requirements.md) (view and click).
+*   [Actions](actions.md) (player and console commands).
 *   Placeholder syntax conversion.
 
 ### Why Use the Converter?
