@@ -5,13 +5,18 @@
 ## Getting Started
 
 * [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Commands](basics/commands.md)
 
-## Basics
+## Features
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Actions](features/actions.md)
+* [Requirements](features/requirements.md)
+* [Placeholders](features/placeholders.md)
+* [Editor & Input](features/editor.md)
+* [Converter](features/converter.md)
+* [Templates](features/templates.md)
+
+## Advanced
+
+* [Configuration](basics/configuration.md)
+* [Platform-Specific](basics/platform-specific.md)

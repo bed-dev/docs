@@ -1,27 +1,53 @@
----
-icon: bullseye-arrow
----
-
 # Quickstart
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-hero.png" alt=""><figcaption></figcaption></figure>
+Getting started with Sheets is simple. Follow these steps to install the plugin and create your first menu.
 
-Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
+### Installation
 
-{% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](https://github.com/GitbookIO/onboarding-template/blob/main/getting-started/broken-reference/README.md) section to learn more.
-{% endhint %}
+1.  Download the latest version of Sheets.
+2.  Place the `Sheets.jar` file into your server's `plugins/` folder.
+3.  Restart your server or use a plugin manager to load Sheets.
 
-### Import
+### Creating Your First Menu
 
-GitBook supports importing content from many popular writing tools and formats. If your content already exists, you can upload a file or group of files to be imported.
+There are two ways to create a menu: using a command or manually creating a YAML file.
 
-<div data-full-width="false">
+#### Using Commands
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/quickstart-import.png" alt=""><figcaption></figcaption></figure>
+Run the following command to create a new sheet using the default template:
 
-</div>
+```bash
+/sheets create my_first_menu basic_gui
+```
 
-### Sync a repository
+This will create a new file at `plugins/Sheets/menus/my_first_menu.yml` and open it for you.
 
-GitBook also allows you to set up a bi-directional sync with an existing repository on GitHub or GitLab. Setting up Git Sync allows you and your team to write content in GitBook or in code, and never have to worry about your content becoming out of sync.
+#### Manual Creation
+
+1.  Navigate to `plugins/Sheets/menus/`.
+2.  Create a new file named `hello_world.yml`.
+3.  Paste the following content:
+
+```yaml
+name: hello_world
+title: "Hello World!"
+type: normal
+size: 27
+buttons:
+  - slot: 13
+    material: DIAMOND
+    name: "&bWelcome to Sheets!"
+    lore:
+      - "&7Click me to receive a message"
+    actions:
+      - message: "&aYou clicked the diamond!"
+```
+
+4.  Save the file and run `/sheets reload`.
+5.  Open your menu with `/sheets open hello_world`.
+
+### Next Steps
+
+*   Learn about more [Commands](../basics/commands.md) to manage your menus.
+*   Explore [Actions](../features/actions.md) to add functionality to your buttons.
+*   Use [Placeholders](../features/placeholders.md) to create dynamic content.

@@ -1,29 +1,18 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+description: Sheets - Unified Menus and Forms
 ---
 
 # Welcome
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+Sheets is a powerful Bukkit plugin that allows you to create rich Java GUIs and Bedrock forms using a single configuration. It features a robust action system, dynamic placeholders, and cross-platform support.
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+### Key Features
 
-### Jump right in
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+* **Unified Configuration**: Define your menus once and they work on both Java and Bedrock.
+* **Chest Edit Mode**: Visually edit your Java GUIs in-game and save changes directly to the configuration.
+* **Dynamic Input**: Use Anvil menus for text input that can be passed to subsequent commands and actions.
+* **Powerful Actions**: A wide range of supported actions for player and server interactions.
+* **Multi-Tier Placeholders**: Global variables, local arguments, and integration with PlaceholderAPI.
+* **Automatic Converter**: Automatically detect and convert DeluxeMenus configurations.
+* **Menu Templates**: Quickly create new sheets using pre-defined templates.
